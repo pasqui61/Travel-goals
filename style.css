@@ -1,0 +1,114 @@
+body {
+  font-family: Quicksand, sans-serif;
+  margin: 0;
+}
+header {
+  background-color: rgb(8, 7, 7, 0.4);
+  padding: 5px;
+  color: gold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+#title {
+  font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
+}
+nav {
+  font-size: 20px;
+}
+nav > a {
+  color: gold;
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav > a:hover,
+nav > .about:hover {
+  color: black;
+  border: 2px solid gold;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: gold;
+}
+.ocean {
+  background-image: url(img/ocean.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+.container {
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 100px auto auto auto;
+  background-color: rgb(6, 6, 6, 0.7);
+  width: 500px;
+  height: 200px;
+  box-shadow: 5px 5px 7px black;
+}
+.container > div {
+  font-size: 30px;
+  padding-top: 30px;
+}
+.container > p {
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+.container > a {
+  margin-top: 60px;
+  background-color: gold;
+  border: 2px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+.highlights {
+  background-color: PaleTurquoise;
+  height: 100vh;
+  /* padding-bottom: 60px; */
+}
+.highlights > h2 {
+  font-family: "Oleo Script", serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+}
+.box-city {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.city {
+  border-radius: 20px;
+  margin: 40px;
+  height: 200px;
+  box-shadow: 5px 5px 5px;
+}
+li > p {
+  font-family: "Oleo Script", serif;
+  margin: 0;
+  text-align: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gray;
+  height: 100px;
+}
+.contacts {
+  padding: 0 10px 0 10px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  flex: none;
+  font-family: Raleway, serif;
+  font-size: 10px;
+}
+.social {
+  padding: 15px;
+  width: 40px;
+}

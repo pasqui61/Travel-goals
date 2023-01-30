@@ -1,0 +1,101 @@
+body {
+  background-color: SlateGray;
+  font-family: Quicksand, sans-serif;
+  margin: 0;
+}
+header {
+  background-color: gray;
+  padding: 5px;
+  color: PaleTurquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+#title {
+  font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
+}
+nav {
+  font-size: 20px;
+}
+nav > a {
+  color: PaleTurquoise;
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav > a:hover,
+nav > .about:hover {
+  color: black;
+  border: 2px solid PaleTurquoise;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: PaleTurquoise;
+}
+section {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 460px 460px;
+  gap: 20px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.layout {
+  height: 200px;
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+}
+.layout-london {
+  display: flex;
+  background-color: white;
+  width: 1fr;
+  height: 200px;
+  grid-column: 1 / span 2;
+  border-radius: 5px;
+}
+.cityimg {
+  background-size: cover;
+  background-position: center;
+  width: 220px;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+}
+.item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.h3city {
+  margin: 10px 0 0 10px;
+}
+.paragraph {
+  margin: 10px 10px 0 10px;
+  word-break: break-word;
+  overflow: hidden;
+}
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: cyan;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gray;
+  height: 100px;
+}
+.contacts {
+  padding: 0 10px 0 10px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-family: Raleway, serif;
+  font-size: 10px;
+}
+.social {
+  padding: 15px;
+  width: 40px;
+}
